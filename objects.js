@@ -13,12 +13,12 @@ isAvailable: false },
 ];
 function getAvailableBooks(books){
     books.filter(function(book){
-        return getAvailableBooks.title
-    }
-    )}.map(function(book){
-        return getAvailableBooks.book
-    })
-    console.log(getBooksByAuthor(authors));
+        return books.title
+    })}
+    // )}.map(function(book){
+    //     return getAvailableBooks.book
+    // })
+    console.log(getBooksByAuthor(books));
 
     
    
@@ -37,7 +37,7 @@ console.log(getBooksByAuthor(authors));
 //to the library, ensuring that the new book has all required properties (title, author,
 //publicationYear, and isAvailable).
 function addNewBook(books){
-    const books={}
+    let books={}
     books.addNewBook=function(){console.log(addNewBook(books));}
     addNewBook.title="Born A crime"
     addNewBook.author="Mary Ann"
@@ -54,7 +54,7 @@ console.log(addNewBook(books));
 //the book's isAvailable property to false. If the book is not found in the library, the
 //function should return a message indicating that the book is not available.
 function checkoutBook(title){
-    books.filter(function(book){
+    title.filter(function(book){
         return books.title
 
     }
@@ -65,7 +65,7 @@ function checkoutBook(title){
 //book's isAvailable property to true. If the book is not found in the library, the function
 //should return a message indicating that the book does not belong to the library.
 function returnBook(title){
-    returnBook.filter(function(book){
+    title.filter(function(book){
     return True
 
     })
